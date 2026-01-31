@@ -1,0 +1,45 @@
+:root {
+  --pink-lightest: #fff5f8;
+  --pink-light: #ffccd5;
+  --pink-medium: #ffb3c1;
+  --pink-dark: #ff8fa3;
+  --pink-deeper: #e75480;
+  --pink-accent: #c9184a;
+  --red-heart: #ff4d6d;
+  --gold-shimmer: #ffd700;
+  --white-cream: #fffaf0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(
+    135deg,
+    var(--pink-lightest) 0%,
+    var(--pink-light) 25%,
+    var(--pink-medium) 50%,
+    var(--pink-light) 75%,
+    var(--pink-lightest) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 100 100"><text y="80" font-size="80">💕</text></svg>') 16 16, auto;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Sparkle cursor trail will be handled in React */
