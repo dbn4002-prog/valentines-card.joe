@@ -28,8 +28,8 @@ const translations = {
     yes: "Ja! 💕",
     no: "Nej",
     yay: "JUBII!",
-    knewYoudSayYes: (name: string) => `Jeg vidste du ville sige ja, ${name}!`,
-    happiestPerson: "Du har gjort mig til det lykkeligste menneske! 💕",
+    knewYoudSayYes: (_name: string) => `Jeg vidste du ville sige ja!`,
+    happiestPerson: "TIHI! 💕",
   },
 }
 
