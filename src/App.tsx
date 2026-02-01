@@ -274,5 +274,10 @@ export default function App() {
         </button>
       </div>
     </div>
+    
   )
 }
+export default defineConfig({
+  plugins: [react()],
+  base: "/valentines-card/", 
+})
