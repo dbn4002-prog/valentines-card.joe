@@ -6,7 +6,17 @@ const LANGUAGE = import.meta.env.VITE_LANGUAGE || 'EN'
 
 const translations = {
   EN: {
-    willYouBeMyValentine: (name: string) => `${name}, will you be my Valentine?`,
+    willYouBeMyValentine: (name: string) => `${name}, will you be my Valentine joe?`,
+    <img
+  src="/us.jpg"
+  alt="Us"
+  style={{
+    width: "260px",
+    borderRadius: "20px",
+    margin: "20px auto",
+    display: "block"
+  }}
+/>
     areYouSure: "Are you sure you want to say no? 🥺",
     prettyPlease: "Please? Pretty please? 💕",
     wontGiveUp: "I won't give up on you! 💖",
