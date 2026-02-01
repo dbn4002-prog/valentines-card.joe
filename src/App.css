@@ -40,7 +40,9 @@
   position: fixed;
   pointer-events: none;
   border-radius: 50%;
-  background: radial-gradient(circle, #ffd700 0%, #ff69b4 50%, transparent 70%);
+  background: body {
+  background: linear-gradient(135deg, #ffd6e8, #fff1f7);
+};
   animation: sparkleAnim 0.6s ease-out forwards;
   z-index: 100;
 }
@@ -500,5 +502,13 @@
 
   .corner-decoration {
     font-size: 25px;
+    body::before {
+  content: "💖 💕 💘 💗 💞";
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+  opacity: 0.15;
+
   }
 }
