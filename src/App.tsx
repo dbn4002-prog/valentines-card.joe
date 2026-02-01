@@ -7,10 +7,18 @@ const LANGUAGE = import.meta.env.VITE_LANGUAGE || 'EN'
 const translations = {
   EN: {
     willYouBeMyValentine: (name: string) => `${name}, will you be my Valentine joe?`,
-    <img
+    valentineimg:(
+      <img
   src="/us.jpg"
-  alt="Us"
-  style={{
+        alt="Us"
+        style={{ width: '200px' }} 
+      />
+    ),
+  },
+        
+      )
+  }
+  
     width: "260px",
     borderRadius: "20px",
     margin: "20px auto",
