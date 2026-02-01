@@ -7,7 +7,7 @@ const LANGUAGE = import.meta.env.VITE_LANGUAGE || 'EN'
 // Fixed the translations object structure
 const translations = {
   EN: {
-    willYouBeMyValentine: (name: string) => `${name}, will you be my Valentine?`,
+    willYouBeMyValentine: (name: string) => `${joe}, will you be my Valentine?`,
     areYouSure: "Are you sure you want to say no? 🥺",
     prettyPlease: "Please? Pretty please? 💕",
     wontGiveUp: "I won't give up on you! 💖",
