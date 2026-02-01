@@ -108,6 +108,13 @@ function App() {
     }
 
     window.addEventListener('mousemove', handleMouseMove)
+    <div className="hearts">
+  <div className="heart" style={{ left: "10%" }}>💖</div>
+  <div className="heart" style={{ left: "30%", animationDelay: "1s" }}>💘</div>
+  <div className="heart" style={{ left: "50%", animationDelay: "2s" }}>💕</div>
+  <div className="heart" style={{ left: "70%", animationDelay: "3s" }}>💗</div>
+  <div className="heart" style={{ left: "90%", animationDelay: "4s" }}>💞</div>
+</div>
     return () => window.removeEventListener('mousemove', handleMouseMove)
   }, [])
 
